@@ -30,3 +30,14 @@ header{
     justify-content: space-between;
     width:300px;
 }
+
+.header  a:hover{
+    text-decoration: underline;
+}
+
+.main--container{
+    display: flex;
+    width: 75%;
+margin: 20px auto;
+justify-content:space-between;
+}

@@ -21,6 +21,11 @@ margin: 20px 15px;
 display: flex;
 
 }
+
+li img{
+    margin: 20px 15px;
+    display: flex;
+}
 a{
     text-decoration: none;
     color:black;

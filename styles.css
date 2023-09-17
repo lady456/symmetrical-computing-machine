@@ -1,99 +1,90 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-body{
-    font-family: "Roboto"  ,sans-serif;
-    margin: 10px;
-}
+<head>
+    <title>MI PORTAFOLIO BONITO</title>
+    <meta name="description" content="este es mi portafolio bonito">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="author" content="leidy">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1db2702c51.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header  class="header">
+        <img class="header--img"src="https://i.pinimg.com/236x/11/e9/66/11e96655e545f57098ee7e4df8b71a3b.jpg" alt="logo de leidy">
+        <li>
+         <a href="./">home</a>
+         <nav class="header--nav">
+            <ul class="header--list">
+                <li>
+                <li>
+                    <a href="./contact">contact</a>
+                </li>
+                <li>
+                    <a href="./blog">blog</a>
+                </li>
+                <li>
+                    <a href="./projects">proyectos</a>
+                </li>
+                <li>
+                    <a href="./about">sobre mi</a>
+                </li>
+            </ul>
+        </nav>
+     </header>
+     <main class="main">
+         <div class="main--container"> 
+             <div>
+          <img class="main--img" src="https://i.pinimg.com/564x/a5/8f/2a/a58f2a94dd22762866814ccbd4aed0f3.jpg" alt="mi foto de perfil">
+             </div>
+    <div class="main--info">
+    <h2 class="info--name">leidy portafolio </h2>
+    <p class="info--description">"Soy una apasionada desarrolladora web con un enfoque en la creación de soluciones digitales a medida. 
+        Mi herramienta de elección es Visual Studio Code, donde transformo ideas en código y diseño experiencias web atractivas y funcionales.
+        Mi viaje en el mundo del desarrollo web es un constante aprendizaje, ya que siempre me esfuerzo por mantenerme actualizada con las últimas tendencias y tecnologías. Mi objetivo es proporcionar a mis clientes un trabajo de calidad que no solo cumpla, sino que supere sus expectativas. </p>
+    <divn class="main--links" >
+       <a  class="main--link main--link__salmon"href="./contact.html">contacto</a>
+       <a  class=" main--link main-- link__transparents"href="./about.html">acerca de mi</a>
+       <div>
+        <div class="main--socia-media">
+            <h2>sigueme en mis redes sociales </h2>
+            <ul>
+                <li>
+                    <a href="">twitter</a>
+                    <a href="">facebbok</a>
+                    <a href="">instagram</a>
+                </li>
+            </ul>
+        </div>  
+       </div>
+    <ul>
+        <li>
+        <img src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg" alt="React">
+        <P> React </P>
+        </li>
+        <li>
+            <img src="https://desarrolloweb.com/storage/tag_images/actual/n20BWPxy4WXVZyC94Cvn2pPus1LSIo2drcqniEkJ.png" alt="html">
+            <p>html</p>
+        </li>
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css">
+            <p>css</p>
+        </li>
+        <li>
+            <img src="https://img2.freepng.es/20180720/pjj/kisspng-javascript-logo-html-clip-art-javascript-logo-5b5188b16dbcd8.5939232615320700654495.jpg" alt="javascript">
+            <p>javascript</p>
+        <li>
+        </li>
+    </ul>
 
+    <footer>
+        todos los derechos recervados 1999
+    </footer>
+</main>
+<body>
 
-ul{
-    list-style:none;
-}
-a{
-    text-decoration: none;
-    color:black;
-}
-
-.header{
-   display:flex;
-   justify-content: space-between;
-   padding: 15px; ;
-}
-
-.header--img{
-    width: 40px;
-    height: 40px;
-}
-
-.header--list{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    width:300px;
-}
-
-.header  a:hover{
-    text-decoration: underline;
-}
-
-.main--container{
-    display: flex;
-    width: 75%;
-    margin: 20px auto;
-    justify-content:space-between;
-}
-.main--container ,main--img{  
-width: 250px;    
-border-radius: 10px;
-padding: 10px;
-  
-}
-.main--info{
-    width: 50%;
-}
-
-.info--name{
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-
-.info--description{
-    font-size: 18px;
-    margin-bottom: 10px;
-
-}
-
-.main--links{
- margin: 20px 0;
-
-
-}
-
-.main--link {
-  padding: 10px 20px;
-  border-radius: 150px;
-  margin: 10px  5px;
-
-}
-
-.main--link__salmon{
-    background-color:salmon
-    color white;
- }
-
-.main--link__transparent{
-    text-decoration: underline;
-    color:black;
- }
-
-.main--social-medi{
-    display: flex;
-}
-
-.main--social-media h2{
-     margin-right: 10px;
-}
+</html>

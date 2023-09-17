@@ -17,10 +17,9 @@ a{
     color:black;
 }
 
-header{
+.header{
    display:flex;
    justify-content: space-between;
-   padding: 15px;
 }
 
 .header--img{
@@ -30,6 +29,7 @@ header{
 
 .header--list{
     display: flex;
+    list-style: none;
     justify-content: space-between;
     width:300px;
 }

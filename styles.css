@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
 }
 
@@ -17,8 +17,8 @@ ul{
 }
 
 li{
-margin: 10px 10px;
-display: flex;
+   margin: 10px 10px;
+   display: flex;
 
 }
 
@@ -45,9 +45,10 @@ a{
 
 .header--list{
     display: flex;
-    list-style: none;
+    list-style:decimal;
     justify-content: space-between;
     width:300px;
+    margin: 5px;
 }
 
 .main--container{
@@ -57,10 +58,10 @@ a{
     justify-content:space-between;
 }
 .main--container ,main--img{  
-width: 250px;    
-border-radius: 10px;
-padding: 10px;
-display: flex;
+     width: 200px;    
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
   
 }
 .main--info{

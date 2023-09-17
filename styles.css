@@ -89,3 +89,10 @@ padding: 10px;
     color:black;
  }
 
+.main--social-medi{
+    display: flex;
+}
+
+.main--social-media h2{
+     margin-right: 10px;
+}

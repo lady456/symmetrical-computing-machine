@@ -105,3 +105,8 @@ display: flex;
 .main--social-media h2{
      margin-right: 10px;
 }
+
+body {
+    display: block;
+    margin: 10px;
+}

@@ -12,10 +12,12 @@ body{
 
 ul{
     list-style:none;
+    margin: 10px 15px;
+
 }
 
 li{
-margin: 20px;
+margin: 20px 15px;
 
 }
 a{

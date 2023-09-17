@@ -20,6 +20,7 @@ a{
 .header{
    display:flex;
    justify-content: space-between;
+   padding: 15px; ;
 }
 
 .header--img{
@@ -78,12 +79,12 @@ padding: 10px;
 
 }
 
- .main--link__salmon{
+.main--link__salmon{
     background-color:salmon
     color white;
  }
 
- .main--link__transparent{
+.main--link__transparent{
     text-decoration: underline;
     color:black;
  }

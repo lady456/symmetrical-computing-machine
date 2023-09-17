@@ -46,8 +46,8 @@ header{
 }
 
 main .main--container ,main--img{  
-width: 300px;    
-border-radius: 15px;
+width: 250px;    
+border-radius: 10px;
 padding: 10px;
   
 }
@@ -72,14 +72,20 @@ padding: 10px;
 
 }
 
-.main--likns a{
-  padding: 10px  20px;
-  color: white;
+.main--link {
+  padding: 10px 20px;
   border-radius: 150px;
-  background-color: salmon;
   margin: 10px  5px;
-
 
 }
 
+ .main--link__salmon{
+    background-color:salmon
+    color white;
+ }
+
+ .main--link__transparent{
+    text-decoration: underline;
+    color:black;
+ }
 

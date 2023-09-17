@@ -44,8 +44,7 @@ a{
     margin: 20px auto;
     justify-content:space-between;
 }
-
-main .main--container ,main--img{  
+.main--container ,main--img{  
 width: 250px;    
 border-radius: 10px;
 padding: 10px;
@@ -60,7 +59,7 @@ padding: 10px;
     margin-bottom: 15px;
 }
 
-.onfo--description{
+.info--description{
     font-size: 18px;
     margin-bottom: 10px;
 
